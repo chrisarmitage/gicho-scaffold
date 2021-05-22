@@ -1,5 +1,6 @@
 {
   "name": "chrisarmitage/microservice-starting-point",
+  "type": "project",
   "require": {
     "php": "8.*",
     "chrisarmitage/framework": "dev-master"
