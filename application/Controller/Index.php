@@ -2,12 +2,21 @@
 
 namespace Application\Controller;
 
+use Core\PongService;
+
 class Index
 {
+    protected PongService $pongService;
+
+    public function __construct(PongService $pongService)
+    {
+        $this->pongService = $pongService;
+    }
+
     public function dispatch()
     {
         return [
-            'success' => true,
+            'version' => $this->pongService->pong('next-gen'),
         ];
     }
 }
