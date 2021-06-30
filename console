@@ -7,7 +7,8 @@ use Framework\App;
 
 ini_set('display_errors', true);
 
-$app = new App();
+$rootDirectory = __DIR__;
+$app = new App($rootDirectory);
 
 $app->console();
 
