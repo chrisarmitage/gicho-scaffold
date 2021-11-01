@@ -8,7 +8,12 @@ class ProcessData
     {
         echo 'Listener: [' . $data->timestamp . '] got number ' . $data->value . ' (' . json_encode($data) . ') ... ';
 
-        sleep(mt_rand(3, 6));
+        $now = microtime(true);
+        $target = $now + 5;
+
+        while (microtime(true) <= $target) {
+            // noop
+        }
 
         echo 'Processed' . PHP_EOL;
     }
