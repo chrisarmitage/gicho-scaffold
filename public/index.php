@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Framework\App;
+use Gicho\App;
 
 ini_set('display_errors', true);
 
