@@ -3,7 +3,9 @@
   "type": "project",
   "require": {
     "php": "8.*",
-    "chrisarmitage/framework": "dev-master"
+    "chrisarmitage/gicho": "dev-main",
+    "php-amqplib/php-amqplib": "^3.0",
+    "vlucas/phpdotenv": "^5.3"
   },
   "repositories": [
     {
@@ -13,7 +15,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "Application\\": "application/"
+      "Application\\": "application/",
+      "Core\\": "src/Core/"
     }
   }
 }

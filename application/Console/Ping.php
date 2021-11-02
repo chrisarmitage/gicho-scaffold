@@ -1,10 +1,10 @@
 <?php
 
-namespace Application\Controller;
+namespace Application\Console;
 
 use Core\PongService;
 
-class Index
+class Ping
 {
     protected PongService $pongService;
 
@@ -13,10 +13,8 @@ class Index
         $this->pongService = $pongService;
     }
 
-    public function dispatch()
+    public function execute()
     {
-        return [
-            'version' => $this->pongService->pong('next-gen'),
-        ];
+        echo $this->pongService->pong("Ping Command") . PHP_EOL;
     }
 }
