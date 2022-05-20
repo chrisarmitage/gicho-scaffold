@@ -3,16 +3,10 @@
   "type": "project",
   "require": {
     "php": "8.*",
-    "chrisarmitage/gicho": "dev-main",
+    "chrisarmitage/gicho": "^0.1",
     "php-amqplib/php-amqplib": "^3.0",
     "vlucas/phpdotenv": "^5.3"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/chrisarmitage/framework"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Application\\": "application/",
