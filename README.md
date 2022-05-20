@@ -1,4 +1,4 @@
-# microservice-starting-point
+# gicho-skeleton
 Skeleton of a fully functioning, deployable, microservice
 
 ## Getting up and running

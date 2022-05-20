@@ -1,4 +1,4 @@
-Microservice: Starting Point -> [Guidebook](../index.md) -> [Architectural Decision Records](index.md)
+Gicho - Skeleton -> [Guidebook](../index.md) -> [Architectural Decision Records](index.md)
 
 ## Record Architectural Decisions
 

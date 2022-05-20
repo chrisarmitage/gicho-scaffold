@@ -1,5 +1,5 @@
 {
-  "name": "chrisarmitage/microservice-starting-point",
+  "name": "chrisarmitage/gicho-scaffold",
   "type": "project",
   "require": {
     "php": "8.*",

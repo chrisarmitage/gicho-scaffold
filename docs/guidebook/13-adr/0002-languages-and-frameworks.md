@@ -1,4 +1,4 @@
-Microservices: Starting Point -> [Guidebook](../index.md) -> [Architectural Decision Records](index.md)
+Gicho - Skeleton -> [Guidebook](../index.md) -> [Architectural Decision Records](index.md)
 
 ## Languages and Frameworks
 
@@ -14,11 +14,11 @@ Modern web applications are built using a primary language and a framework. This
 
 ### Decision
 
-|                            |                         |
-| ---                        | ---                     |
-| **Language**               | PHP 8                   |
-| **Framework**              | chrisarmitage/framework |
-| **Deployment environment** | Docker / k8s            |
+|                            |                     |
+| ---                        |---------------------|
+| **Language**               | PHP 8               |
+| **Framework**              | chrisarmitage/gicho |
+| **Deployment environment** | Docker / k8s        |
 
 ### Consequences
 

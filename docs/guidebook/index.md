@@ -1,4 +1,4 @@
-# Microservice: Starting Point - Guidebook
+# Gicho - Skeleton: Guidebook
 
 1. Context
 2. Functional Overview
